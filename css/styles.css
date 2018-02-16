@@ -1,0 +1,58 @@
+/* add your CSS here */
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	color:#E4DFD9;
+	text-align: center;
+	padding: 10px 0px;
+	border-bottom: thin solid grey;
+	background-color: #68645D;
+	margin:25px -25px;
+}
+
+.card{
+	font-family: 'Roboto', sans-serif;
+	width: 300px;
+	margin: 5px;
+	padding: 25px;
+	border: 3px groove #68645D;
+	border-radius: 5px;
+	background-color: rgba(183,175,162,1)
+}
+#placeholder {
+	width: 300px;
+	padding: 1px 0px;
+	border-radius: 5px;
+	border-color: #68645D;
+}
+
+.facts {
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+#animal {
+	border: 1px hidden #68645D;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: rgba(223,222,218,0.5);
+}
+#animal ul{
+	list-style-type: none;
+	border: 2px solid #68645D;
+	border-radius: 5px;
+	background-color: rgba(183,175,162,1);
+}
+
+#animal li {
+	padding: 5px 0px;
+	margin-left: -25px;
+}
+
+#animal .label {
+	font-weight: bold;
+}
+
+#animal #description {
+	text-align:justify;  
+    text-justify:auto;
+}
